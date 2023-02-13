@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="neon_button.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .bg-img1 {
+        background: url(./assets/img-1.jpg);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 100px;
+        height: 100px;
+        width: 100%;
+        background-color: rgba(00, 00, 00, 0.1);
+    }
+
+    .nav-a a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-a a:hover {
+        /* background-color: rgba(00, 00, 00, 0.3); */
+        color: rgb(245, 142, 197);
+
+    }
+
+    .nav-heading {
+        font-size: 2.5rem;
+    }
+
+    .nav-heading a {
+        padding: 1rem 1.5rem;
+        border-radius: 5px;
+    }
+
+    .nav-links a {
+        font-size: 1.2rem;
+        /* padding: 10px 15px; */
+        /* border-radius: 10px; */
+        font-weight: bold;
+    }
+
+    .fs-custom {
+        font-size: 50px;
+
+    }
+
+    .pad-custom-p1 {
+        padding: 100px 450px;
+        position: relative;
+    }
+
+    .mouse-body {
+        margin-top: 200px;
+        height: 30px;
+        width: 20px;
+        border: 1px solid white;
+        border-radius: 40%;
+    }
+
+    .btn1-position {
+        position: absolute;
+        bottom: 28px;
+        left: 0px;
+    }
+
+    .pos-rel {
+        position: relative;
+    }
+
+    .box1 {
+        z-index: -10;
+        height: 200px;
+        width: 200px;
+        background-color: rgba(243, 66, 146, 0.5);
+        position: absolute;
+        bottom: 100px;
+        left: -50px;
+    }
+
+    .box2 {
+        z-index: -10;
+        height: 200px;
+        width: 200px;
+        background-color: rgba(10, 111, 245, 0.5);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .card-body:hover {
+        background-color: rgb(243, 147, 114);
+
+    }
+
+    .pos-rel-img {
+        height: 500px;
+        width: 100%;
+        position: relative;
+    }
+
+    .pos-img-1 {
+        position: absolute;
+        bottom: 0px;
+        left: 200px;
+
+    }
+
+    .pos-img-2 {
+        position: absolute;
+        bottom: 0px;
+        left: 350px;
+
+    }
+
+    .pos-img-3 {
+        position: absolute;
+        bottom: 0px;
+        left: 545px;
+        z-index: 10;
+    }
+
+    .pos-img-4 {
+        position: absolute;
+        bottom: 0px;
+        right: 350px;
+        z-index: 1;
+
+    }
+
+    .pos-img-5 {
+        position: absolute;
+        bottom: 0px;
+        right: 200px;
+
+    }
+</style>
+
+<body>
+
+    <div class="bg-img1">
+        <div class="nav-bar">
+            <div class="nav-heading nav-a">
+                <a href=""><i class="bi bi-fingerprint"></i> Sena</a>
+            </div>
+            <div class="nav-links nav-a magic-button">
+                <a class="neon-green" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Home</a>
+                <a class="neon-pink" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    About</a>
+                <a class="neon-blue" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Team</a>
+                <a class="neon-magenta" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Projects</a>
+                <a class="neon-green" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Reviews</a>
+                <a class="neon-pink" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Blog</a>
+                <a class="neon-blue" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Store</a>
+                <a class="neon-magenta" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Contacts</a>
+                <a class="neon-green" href="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    ikon</a>
+            </div>
+        </div>
+        <div class="pad-custom-p1 main-p1 d-flex flex-column align-items-center">
+            <p class="fw-bold text-danger">CREATIVE SOLUTIONS</p>
+            <h1 class="my-5 fw-bold text-light text-center">
+                We Design & Build Unique Things
+            </h1>
+            <p class=" fw-bold fs-5 text-light text-center">
+                Sena is loaded with useful, functional options
+                <br> which allow users to quickly and easily creat websites.
+            </p>
+            <a class="mouse-body"><span class="mouse-wheel"></span></a>
+            <button type="button" class="btn btn-dark btn1-position"><i class="bi bi-gear"></i></button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="d-flex gap-3  px-5 flex-column w-100 h-100">
+                <p class="fw-bold">DISCOVER SENA</p>
+                <h2 class="fw-bold fs-1">Our Mission</h2>
+                <p class="text-secondary">
+                    Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Pellentesque vel elit egestas,
+                    pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros.
+                </p>
+                <div class=" ">
+                    <ul>
+                        <li>Branding</li>
+                        <li>Branding</li>
+                        <li>Branding</li>
+                        <li>Branding</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-7">
+            <div class="d-flex pos-rel">
+                <div class="col-sm-6">
+                    <img src="https://images.unsplash.com/photo-1670253735794-edb4c0a6870d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                        alt="" class="img-fluid m-2 h-75">
+                    <div class="box1"></div>
+                </div>
+                <div class="col-sm-6">
+                    <img src="https://images.unsplash.com/photo-1669040084821-097235fe53ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQzfFM0TUtMQXNCQjc0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="" class="img-fluid m-2 mt-5 h-75">
+                    <div class="box2"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class=" bg-light text-center">
+        <p class="text-warning pt-5 fw-semibold">WHAT WE DO</p>
+        <h2 class="fs-1 fw-bolder">We Are Awesome Agency</h2>
+        <p class="text-secondary fs-5 px-5">
+            We are an innovative company. We develop <span class="text-warning fw-semibold fs-5">softwares</span>
+            for costumers around the world.
+            <br>
+            Our clients are some
+            of the most forward-looking companies in the world.
+        </p>
+        <div class="row">
+            <div class=" d-flex">
+                <div class="col-sm-4">
+                    <div class="card m-3 mx-5">
+                        <div class="card-body">
+                            <div><i class="bi bi-rulers text-warning fs-1"></i></div>
+                            <h5 class="fw-semibold my-3">Product Design</h5>
+                            <p class="text-secondary mx-3">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                                Putent
+                                laoreet et ius
+                                utroque
+                                dissentias ut.</p>
+                            <button type="button" class="btn btn-warning fs-5 rounded-5 text-light">></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mt-3 mx-5">
+                        <div class="card-body">
+                            <div><i class="bi bi-suit-club text-warning fs-1"></i></div>
+                            <h5 class="fw-semibold my-3">Digital Marketing</h5>
+                            <p class="text-secondary mx-3">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                                Putent
+                                laoreet et ius
+                                utroque
+                                dissentias ut.</p>
+                            <button type="button" class="btn btn-warning fs-5 rounded-5 text-light">></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card m-3 mx-5">
+                        <div class="card-body">
+                            <div><i class="bi bi-bag-check text-warning fs-1"></i></div>
+                            <h5 class="fw-semibold my-3">Brand Identity</h5>
+                            <p class="text-secondary mx-3">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                                Putent
+                                laoreet et ius
+                                utroque
+                                dissentias ut.</p>
+                            <button type="button" class="btn btn-warning fs-5 rounded-5 text-light">></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center my-5">
+            <p class="text-secondary">Don’t hesitate, contact us for better help and services. <span
+                    class="fw-semibold text-dark">Explore all
+                    services</span></p>
+            <div class="d-flex pos-rel-img">
+                <img src="https://images.unsplash.com/photo-1670926569143-2e541916aa65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fE04alZiTGJUUndzfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="" class="img-fluid h-50 pos-img-1">
+                <img src="https://images.unsplash.com/photo-1670918532018-8e621d592758?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfE04alZiTGJUUndzfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="" class="img-fluid h-75 pos-img-2">
+                <img src="https://images.unsplash.com/photo-1671250054598-b2130c1d54a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8TThqVmJMYlRSd3N8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    alt="" class="img-fluid h-100 pos-img-3">
+                <img src="https://images.unsplash.com/photo-1670874972928-c177de8554bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfE04alZiTGJUUndzfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="" class="img-fluid h-75 pos-img-4">
+                <img src="https://images.unsplash.com/photo-1670443147672-0e2df1121bb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fE04alZiTGJUUndzfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="" class="img-fluid h-50 pos-img-5">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>

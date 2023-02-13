@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    min-height: 100vh;
+    /* background-color: #031321; */
+    font-family: consolas;
+}
+
+/* NEON BLUE */
+.neon-blue {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: #2196f3;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.neon-blue:hover {
+    color: #255784;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
+
+.neon-blue span {
+    position: absolute;
+    display: block;
+}
+
+.neon-blue span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+.neon-blue:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon-blue span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+
+.neon-blue:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon-blue span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+.neon-blue:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon-blue span:nth-child(4) {
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2196f3);
+}
+
+.neon-blue:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+/* NEON GREEN */
+.neon-green {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: #39ff14;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.neon-green:hover {
+    color: #255784;
+    background-color: #39ff14;
+    box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
+    transition-delay: 1s;
+}
+
+.neon-green span {
+    position: absolute;
+    display: block;
+}
+
+.neon-green span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #39ff14);
+}
+
+.neon-green:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon-green span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #39ff14);
+}
+
+.neon-green:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon-green span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #39ff14);
+}
+
+.neon-green:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon-green span:nth-child(4) {
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #39ff14);
+}
+
+.neon-green:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+/* NEON PINK */
+.neon-pink {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: #F516E2;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.neon-pink:hover {
+    color: #255784;
+    background-color: #F516E2;
+    box-shadow: 0 0 10px #F516E2, 0 0 40px #F516E2, 0 0 80px #F516E2;
+    transition-delay: 1s;
+}
+
+.neon-pink span {
+    position: absolute;
+    display: block;
+}
+
+.neon-pink span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #F516E2);
+}
+
+.neon-pink:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon-pink span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #F516E2);
+}
+
+.neon-pink:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon-pink span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #F516E2);
+}
+
+.neon-pink:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon-pink span:nth-child(4) {
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #F516E2);
+}
+
+.neon-pink:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+/* NEON MAGENTA  */
+.neon-magenta {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: #FF00FF;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.neon-magenta:hover {
+    color: #255784;
+    background-color: #FF00FF;
+    box-shadow: 0 0 10px #FF00FF, 0 0 40px #FF00FF, 0 0 80px #FF00FF;
+    transition-delay: 1s;
+}
+
+.neon-magenta span {
+    position: absolute;
+    display: block;
+}
+
+.neon-magenta span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #FF00FF);
+}
+
+.neon-magenta:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+.neon-magenta span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #FF00FF);
+}
+
+.neon-magenta:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.neon-magenta span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #FF00FF);
+}
+
+.neon-magenta:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.neon-magenta span:nth-child(4) {
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #FF00FF);
+}
+
+.neon-magenta:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-black {
+    color: black;
+}
